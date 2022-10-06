@@ -1,0 +1,14 @@
+div.explorePage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 100%-462px;
+}
+div.posts{
+    display: flex;
+    flex-direction: column;
+}
+div.offering{
+    display: flex;
+    flex-direction: column;
+}

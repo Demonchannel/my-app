@@ -1,0 +1,41 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    gap: 494px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+div.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    width: 200px;
+    height: 27px;
+}
+a.header{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #29374E;
+}
+div.userProfile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 126px;
+    height: 42px;
+}
+img.headerUser{
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+}

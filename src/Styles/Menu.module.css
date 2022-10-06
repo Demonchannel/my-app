@@ -1,0 +1,34 @@
+nav.navMenu{
+    background: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 20px 10px;
+    width: 230px;
+    height: 442px;
+    margin-left: 15px;
+}
+div.item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    width: 220px;
+    height: 44px;
+}
+Link.item{
+    width: 166px;
+    height: 16px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #42577D;
+    text-decoration: none;
+}
+
