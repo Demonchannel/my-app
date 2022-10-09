@@ -4,15 +4,22 @@ import s from "../Styles/Layout.module.css"
 import { Link, Outlet } from 'react-router-dom'
 import Header from "./Header";
 import Menu from "./Menu";
+import styled from "styled-components";
+
+const Container = styled.div`
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+`
 
 const Layout = () =>{
     return( 
         <div>
         <div><Header/></div>
-        <div><Menu/></div>
-        <main className="">
+        <Container>
+        <Menu/>
         <Outlet/>
-</main>
+</Container>
     </div>
     )
 }
